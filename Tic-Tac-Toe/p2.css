@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* name of the game */
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    
+}
+/* css of gaming container according to the full screen */
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* css of game which include all the 9 boxes */
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+    align-items: center;
+}
+/*  individual boxex*/
+.box{                      
+    height: 18vmin;
+    width: 18vmin;
+    background-color:burlywood;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.8);
+    font-size: 8vmin;
+    color:rgba(236, 42, 42, 0.84);
+    border:none;
+    
+    
+}
+/* whole body and background */
+body{                                       
+    background-color: royalblue;
+    text-align: center;
+}
+
+
+/* reset button */
+#reset{
+    height: 40px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color:#fff;
+    border: none;
+    font-size: 1 4px;
+    border-radius: 1rem;
+
+}
+/* new gamae button */
+#newbtn{
+    height: 10rem;
+    width: 39rem;
+    background-color: rgba(0, 0, 0, 0.582);
+    color:#fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 1rem;
+
+}
+/* message (winner/draw) */
+#msg{
+    font-size: 5rem;
+}
+
+/* we make hide equal to none before showing the result */
+.hide{
+    display:none;
+}
